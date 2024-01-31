@@ -6,15 +6,12 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-gap: 16px;
-    white-space: nowrap;
-    justify-content: center;
-    padding: auto 20px;
 
-    @media screen and (min-width: 481px) and (max-width: 768px) {
+    @media ((min-width: 701px) and (max-width: 1120px)) {
       grid-template-columns: 1fr 1fr;
     }
 
-    @media screen and (min-width: 768.1px) {
+    @media (min-width: 1121px) {
       grid-template-columns: 1fr 1fr 1fr;
     }
   }
